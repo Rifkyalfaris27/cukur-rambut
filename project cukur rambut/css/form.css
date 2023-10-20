@@ -1,0 +1,43 @@
+*,
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+
+.gambar {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.gambar::before {
+    z-index: -100;
+}
+
+.wrapper {
+    justify-content: center;
+    max-width: 1200px;
+    background-image: src"img";
+}
